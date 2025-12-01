@@ -1,0 +1,13 @@
+/* Basic global styles */
+:root { color-scheme: light dark; }
+html, body { padding: 0; margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+* { box-sizing: border-box; }
+main { max-width: 880px; padding: 24px; margin: 0 auto; line-height: 1.6; }
+h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+h2 { font-size: 1.5rem; margin-top: 2rem; }
+.card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; margin-top: 16px; background: rgba(255,255,255,0.75); backdrop-filter: blur(4px); }
+.date { font-feature-settings: "tnum"; font-variant-numeric: tabular-nums; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 9999px; background: #eef2ff; color: #3730a3; font-size: 12px; margin-left: 8px; }
+.grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 768px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+footer { margin-top: 48px; opacity: 0.7; font-size: 14px; }
